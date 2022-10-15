@@ -18,7 +18,7 @@ public class EventosController {
 	@RequestMapping("/Eventos/form")
 	public String form() {
 		
-		return "formEvento";
+		return "eventos/formEvento";
 		
 	}
 	
@@ -30,7 +30,7 @@ public class EventosController {
 	
 	
 		
-		return "evento-adicionado";
+		return "eventos/evento-adicionado";
 		}
 	
 	
